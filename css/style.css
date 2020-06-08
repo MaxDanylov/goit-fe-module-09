@@ -38,7 +38,6 @@
     /* Chrome 26+, Opera 23+, Firefox 39+ */
       url("../fonts/roboto-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
-/* RESET */
 html {
   box-sizing: border-box;
 }
@@ -70,7 +69,6 @@ p {
   margin: 0;
   padding: 0;
 }
-/* ROOT */
 :root {
   --head-font: "Montserrat", sans-serif;
   --description-font: "Roboto", sans-serif;
@@ -78,10 +76,7 @@ p {
   --head-color: #333333;
   --description-color: #666666;
 }
-* {
-  outline: 1px solid cyan;
-}
-/* HEADER */
+
 .header {
   min-height: 540px;
   padding-top: 20px;
@@ -91,7 +86,6 @@ p {
   background-size: cover;
   color: #ffffff;
 }
-/* HEADER-NAVIGATION */
 .navigation-wraper {
   margin-bottom: 24px;
 }
@@ -119,9 +113,7 @@ p {
   border: 2px solid #ffffff;
   border-radius: 18px;
 }
-/* HEADER-NAVIGATION-LOGO */
 .header-navigation-logo {
-  /* display: block; */
   text-align: center;
   font-family: var(--head-font);
   font-size: 1.25rem;
@@ -131,7 +123,6 @@ p {
   text-transform: uppercase;
   color: #ffffff;
 }
-/* HEADER-TEXT */
 .header-head {
   margin: 0 auto;
   text-align: center;
@@ -152,9 +143,7 @@ p {
   line-height: 1.2;
   text-align: center;
 }
-/* HEADER-BTN */
 .header-button-find {
-  /* display: block; */
   margin: 0 auto;
   width: 280px;
   height: 40px;
@@ -172,7 +161,6 @@ p {
   border: 2px solid #ffffff;
   background: none;
 }
-/* SECTION-PARTNERS */
 .partners {
   padding-top: 66px;
 }
@@ -189,7 +177,6 @@ p {
   letter-spacing: -0.5px;
   color: var(--head-color);
 }
-/* PARTNER-LIST */
 .partners-list {
   margin-bottom: 26px;
 }
@@ -206,7 +193,6 @@ p {
 }
 .partners-list-item-wrapper::after {
   content: "";
-  /* display: block; */
   position: absolute;
   bottom: 0px;
   right: 0px;
@@ -252,9 +238,7 @@ p {
   line-height: 1.2;
   color: var(--description-color);
 }
-/* PARTNERS-BTN */
 .see-other-partners {
-  /* display: block; */
   margin: 0 auto;
   width: 280px;
   height: 40px;
@@ -331,10 +315,7 @@ p {
     margin-bottom: 28px;
   }
   .partners-list {
-    /* display: flex;
-    flex-wrap: wrap; */
     justify-content: space-between;
-    /* margin: 0 auto; */
     margin-bottom: 34px;
   }
 
